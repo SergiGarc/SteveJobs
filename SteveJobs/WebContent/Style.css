@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+h1:first-letter{
+	font-size: 70px;
+	color:black;
+}
+
+h1, h3{
+	color: blue;
+	text-align: center;
+}
+
+p:first-line{
+	color: red;
+}
+
+body{
+	background-color:#ADD8E6;
+}
+
+.link:visited{
+	background-color: blue;
+	color: white;
+}
+
+.link:link{
+	background-color: white;
+	color: blue;
+}
+
+.wiki:hover{
+	background-color: yellow;
+	color: red;
+}
+
+.prod:first-line{
+	color:black;
+}
+
+.img{
+	float: right;
+	position: relative;
+	bottom:170px;
+}
+
+footer{
+	font-style: oblique;
+}
